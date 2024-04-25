@@ -1,0 +1,13 @@
+/*BOTONES*/
+
+.boton-azul {
+    @include botones ($color-primario, bold, $color-secundario, 10px, 1rem);
+    box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
+    transition: transform 0.3s;
+}
+
+.boton-blanco {
+    @include botones ($color-secundario, bold, $color-primario, 10px, 1rem);
+    box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
+    transition: transform 0.3s;
+}
